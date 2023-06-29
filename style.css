@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.header {
+    padding: 30px 10px 50px 10px;
+    background: linear-gradient(145deg, #112236 0%, #0F2B4A 100%);
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.online {
+    border-radius: 15px;
+    border: 2px solid #FFBF00;
+    width: fit-content;
+    padding: 17px 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.online-title {
+    color: #747F8C;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 50px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #747F8C;
+    margin-bottom: 12px;
+}
+
+.online-title span {
+    color: #FFBF00;
+    font-size: 55px;
+}
+
+.online-subtitle {
+    color: #FFBF00;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.form {
+    color: #747F8C;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.head-text {
+    color: #FFBF00;
+    font-size: 55px;
+    font-weight: 800;
+    line-height: 70px;
+    margin-bottom: 35px;
+}
+
+.head-text span {
+    color: #ffffff;
+}
+
+
+.head-image-holder {
+    display: flex;
+}
+.market-image{
+    position: absolute;
+    right: 360px;
+}
+#mark-two img {
+    transform: rotate(72deg);
+    left: 0px;
+}
+#mark-two{
+    left: 250px;
+}
+
+.head-subtitle {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(15, 38, 66, 0.00) 0%, rgba(15, 38, 66, 0.75) 35.94%, #061B33 100%);
+    width: 100%;
+}
+
+.subtitle-text {
+    color: #FFF;
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-bottom: 26px;
+    max-width: 600px;
+}
+
+.head-button button {
+    border-radius: 15px;
+    background: #FFBF00;
+    border-style: none;
+    box-shadow: 0px 5px 20px 0px rgba(255, 191, 0, 0.30);
+    color: #112236;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+
+.fon {
+    position: absolute;
+    left: -52px;
+}
+
+.mark-fon-right {
+    right: 0px;
+    position: absolute;
+    top: 265px;
+}
+.head-image{
+    position: relative;
+}
+.fon-right {
+    position: absolute;
+    right: 0px;
+}
+
+.container {
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.title {
+    color: #112236;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100%;
+    margin-bottom: 60px;
+}
+
+.title span {
+    color: #FFBF00;
+}
+
+.info {
+    margin-bottom: 50px;
+}
+
+.info-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inf {
+    margin-right: 30px;
+}
+
+.inf:last-child {
+    margin-right: 0px;
+}
+
+.inf-title {
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25px;
+    min-width: 250px;
+}
+
+.inf-title span {
+    font-weight: bold;
+}
+
+.cont-button button {
+    border-radius: 15px;
+    background: #FFBF00;
+    border-style: none;
+    box-shadow: 0px 5px 20px 0px rgba(255, 191, 0, 0.30);
+    color: #112236;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 100%;
+    padding: 20px 50px;
+}
+
+.inf-sec-2 {
+    background-color: #F0F0F0;
+}
+
+.inf-sec-3 {
+    background: linear-gradient(135deg, #112236 0%, #001022 100%);
+}
+
+.footer {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background: #112236;
+}
+
+.foot-title {
+    color: #87929F;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+}
+@media(max-width:1300px){
+    .info-holder{
+        flex-direction: column;
+    }
+    .inf{
+        margin-right: 0px;
+        margin-bottom: 40px;
+    }
+    .market-image img{
+        width: 200px;
+    }
+    .women-image img{
+        width: 400px;
+    }
+}
+@media(max-width:940px){
+    .fon, .fon-right{
+        display: none;
+    }
+}
+@media(max-width:700px){
+    .head-text, .title{
+        font-size: 30px;
+    }
+    .head-text{
+        line-height: 45px;
+    }
+    .market-image {
+        right: 310px;
+    }
+    .market-image img {
+        width: 150px;
+    }
+}
+@media(max-width:670px){
+    .container{
+        padding: 50px 20px;
+    }
+}
+@media(max-width:450px){
+    .women-image img{
+        width: 295px;
+    }
+    .market-image {
+        right: 220px;
+    }
+    #mark-two {
+        left: 180px;
+    }
+}
+@media(max-width:410px){
+    .market-image img {
+        width: 120px;
+    }
+}
